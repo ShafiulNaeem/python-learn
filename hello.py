@@ -1,1 +1,3 @@
-print("hello Rifat");
+print("hello Rifat")
+if 5>2:
+    print("Five is greater than two!")
