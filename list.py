@@ -46,5 +46,26 @@ while n < len(data):
 personData = [i for i in data if i not in phpStack]
 print("person data:", personData)
 print("php stack:", phpStack)
+# list copy
+print("==== copy list ====")
+copyData = data.copy()
+copyData1 = list(data)
+copyData2 = data[1:4]
+copyData2[0] = 100
+print(copyData1)
+print(copyData2)
+print(copyData)
+print("==== copy list end ====")
+
+# list join
+print("==== join list ====")
+joinData = data + phpStack
+joinData.extend(phpStack)
+joinData1 = joinData[:]
+print(joinData)
+print(joinData1)
+print("==== join list end ====")
+
 # show data
 print(data)
+
