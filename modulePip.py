@@ -8,7 +8,6 @@ pip freeze > requirements.txt  # save all installed packages with version to a f
 pip install -r requirements.txt  # install all packages from a file
 pip install --upgrade <package_name>  # upgrade package
 pip install --upgrade pip  # upgrade pip
-
 module is packege and pip is packege manager
 what is module and pip?
 module is a file containing python code. It may contain functions, classes, etc.
