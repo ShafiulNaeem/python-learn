@@ -26,5 +26,25 @@ data.remove("C")
 data.pop()
 del data[-2]
 
+# loop  and list comprehension
+phpStack = []
+print("print for loop")
+for i in data:
+    print(i)
+    if i == "PHP" or i == "Laravel":
+        phpStack.append(i)
+
+for i in range(len(data)):
+    print(data[i])
+
+n = 0
+while n < len(data):
+    print(data[n])
+    n += 1
+
+# list comprehension
+personData = [i for i in data if i not in phpStack]
+print("person data:", personData)
+print("php stack:", phpStack)
 # show data
 print(data)
