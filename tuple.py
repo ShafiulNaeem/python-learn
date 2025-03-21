@@ -22,3 +22,25 @@ a, b, c, d, e, f, g, h = data
 print(a, b, c, d, e, f, g, h)
 f,g,*h = updateData
 print(f,g,h)
+# tuple loop
+print("=== tuple loop ===")
+for i in data:
+    print(i)
+
+for i in range(len(data)):
+    print(data[i])
+
+n = 0
+while n < len(data):
+    print(data[n])
+    n += 1
+# tuple comprehension
+print("=== tuple comprehension ===")
+phpStack = []
+for i in data:
+    if i == "PHP" or i == "Laravel":
+        phpStack.append(i)
+
+phpStack = tuple(phpStack)
+print(phpStack)
+

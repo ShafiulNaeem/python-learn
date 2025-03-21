@@ -61,7 +61,7 @@ print("==== copy list end ====")
 print("==== join list ====")
 joinData = data + phpStack
 joinData.extend(phpStack)
-joinData1 = joinData[:]
+joinData1 = joinData * 2
 print(joinData)
 print(joinData1)
 print("==== join list end ====")
