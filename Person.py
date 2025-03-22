@@ -11,10 +11,8 @@ class Person:
     def calculateMonths(self):
         return self.age * 12
 
-
-
-data = Person('John', 25)
-print(data.name)
-print(data.age)
-print("output:", data) 
-print(data.calculateMonths()) 
+# data = Person('John', 25)
+# print(data.name)
+# print(data.age)
+# print("output:", data) 
+# print(data.calculateMonths()) 
