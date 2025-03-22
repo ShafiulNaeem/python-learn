@@ -1,8 +1,7 @@
 
 from Person import Person
-from oop.Main import Main
 
-class Behavior(Person,Main):
+class Behavior(Person):
     behave = None
     def __init__(self, name, age, behave):
         super().__init__(name, age)

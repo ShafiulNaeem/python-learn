@@ -1,4 +1,5 @@
-class Person:
+from oop.Main import Main 
+class Person(Main):
     name = None
     age = None
     def __init__(self, name, age):
