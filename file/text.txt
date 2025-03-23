@@ -1,0 +1,6 @@
+ wite some text
+ hey copilot write paragraph text 
+
+ This is a simple program to read a file in python
+ The file is opened in read mode and the content is printed
+ The file is closed after reading the content

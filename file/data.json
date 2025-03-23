@@ -1,0 +1,35 @@
+{
+    "name": "John",
+    "age": 30,
+    "city": "New York",
+    "email": "teast@ehwe",
+    "isStudent": true,
+    "isTeacher": false,
+    "isEmployed": true,
+    "isUnemployed": false,
+    "languages": [
+        "English",
+        "Spanish",
+        "French"
+    ],
+    "hobbies": [
+        "Reading",
+        "Swimming",
+        "Running"
+    ],
+    "tuple": [
+        1,
+        2,
+        3
+    ],
+    "dyyict": [
+        {
+            "name": "John",
+            "age": 30
+        },
+        {
+            "name": "John",
+            "age": 30
+        }
+    ]
+}
