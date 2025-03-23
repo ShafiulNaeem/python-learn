@@ -13,3 +13,9 @@ what is module and pip?
 module is a file containing python code. It may contain functions, classes, etc.
 pip is a package manager used to install and manage software packages written in Python.
 '''
+
+import camelcase
+
+c = camelcase.CamelCase()
+txt = "hello world"
+print(c.hump(txt))
