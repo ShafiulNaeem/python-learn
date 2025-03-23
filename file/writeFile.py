@@ -1,7 +1,7 @@
 import json
 
 try:
-    file = open("writeData.json", "w")
+    file = open("writeData.json", "x")
     data = {
         "name": "John",
         "age": 30,
@@ -20,7 +20,7 @@ try:
         ]
     }
     json_data = json.dumps(data, indent=4)
-    file.write(json_data)
+    # file.write(json_data)
 except FileNotFoundError as e:
     print("Error", e)
 finally:
