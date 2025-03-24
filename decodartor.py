@@ -53,17 +53,30 @@ class Math:
         print("This is a class decorator")
     
     @staticmethod
-    def multi( a, b):
+    def multi(a, b):
         return a*b
     @classmethod
-    def get_month_age(self):
+    def get_month_age(self,hh):
         self.age = self.age *12
         return self.age
+    
+    @property
+    def get_age_day(self):
+        return self.age
+    
+    @get_age_day.setter
+    def get_age_day(self,value):
+        self.age = value*365
+    
     
 m = Math()
 print(m.class_name)
 print(m.age)
 print(m.name)
+# property decorators
+print("=== property decorators ===")
+m.get_age_day = m.age
+print(m.get_age_day)
 #  static method decorators
 print("=== static method decorators ===")
 print(Math.multi(3, 3))
@@ -71,7 +84,7 @@ print(Math.multi(3, 3))
 # class method decorators
 print("=== class method decorators ===")
 print(Math.age)
-Math.get_month_age()
+Math.get_month_age(6)
 print(Math.age)
 
 # property decorators
