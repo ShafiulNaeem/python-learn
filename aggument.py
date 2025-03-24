@@ -79,6 +79,27 @@ from functools import reduce
 red = reduce(lambda acc, x: {'name': acc['name'] + " " + x['name'], 'points': acc['points'] + x['points']}, dit)
 print("Reduced dictionary:", [red])
 
+# inner function loging 
+import logging
+logging.basicConfig( level=logging.INFO)
+
+def logger(func):
+    def log_func(*args, **kwargs):
+        logging.info('Running "{}" with arguments {}'.format(func.__name__, args, kwargs))
+        # print(func(*args, **kwargs))
+        return func(*args, **kwargs)
+    return log_func
+
+@logger
+def add(x, y):
+    return x + y
+
+def sub(x, y):
+    return x - y
+
+print(add(3, 3))
+print(sub(3, 3))
+
 
 
 

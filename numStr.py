@@ -47,3 +47,4 @@ text = "My name is Rifat, and I am {} years old. I am {} months old".format( 20,
 print(text)
 print(txt)
 
+
