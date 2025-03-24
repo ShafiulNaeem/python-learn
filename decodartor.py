@@ -87,8 +87,26 @@ print(Math.age)
 Math.get_month_age(6)
 print(Math.age)
 
-# property decorators
-print("=== property decorators ===")
+# chaining decorators
+print("=== chaining decorators ===")
+def test1(func):
+    def new():
+        x = func()
+        return x + 1
+    return new
+
+def test2(func):
+    def new():
+        x = func()
+        return x * 2
+    return new
+
+@test1
+@test2
+def test():
+    return 10
+
+print(test())
 
 
 
