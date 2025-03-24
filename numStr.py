@@ -42,7 +42,7 @@ if "APPLE" in b:
 # format string
 age = 27
 ageMonth = age * 12
-txt = f"My name is \"Rifat\", and I am {age:.2f}"
+txt = f"My name is \"Rifat\", and I am {age:.2f}"+" years old. I am {} months old".format(ageMonth)
 text = "My name is Rifat, and I am {} years old. I am {} months old".format( 20,30)
 print(text)
 print(txt)
