@@ -1,0 +1,8 @@
+2025-03-25 23:41:47,423 - INFO - Running "area" with arguments (oop.log,)
+2025-03-25 23:41:47,423 - DEBUG - This is a log message from Square
+2025-03-25 23:43:15,015 - INFO - Running "area" with arguments (oop.log,)
+2025-03-25 23:43:15,015 - DEBUG - This is a log message from Square
+2025-03-25 23:44:35,538 - INFO - Running "area" with arguments (oop.log,)
+2025-03-25 23:44:35,538 - DEBUG - This is a log message from Square
+2025-03-25 23:49:01,829 - INFO - Running "area" with arguments (oop.log,)
+2025-03-25 23:49:01,831 - DEBUG - This is a log message from Square
