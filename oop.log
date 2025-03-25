@@ -1,0 +1,24 @@
+2025-03-26 00:06:12,818 - INFO - Running "area" with arguments (oop.log,)
+2025-03-26 00:06:12,819 - DEBUG - This is a log message from Square
+2025-03-26 00:06:12,846 - INFO - Running "area" with arguments (oop.log,)
+2025-03-26 00:06:12,846 - DEBUG - This is a log message from Square
+2025-03-26 00:06:12,847 - INFO - Running "area" with arguments (oop.log,)
+2025-03-26 00:06:12,847 - DEBUG - This is a log message from Circle
+2025-03-26 00:07:19,918 - INFO - Running "area" with arguments (oop.log,)
+2025-03-26 00:07:19,918 - DEBUG - This is a log message from Square
+2025-03-26 00:07:19,920 - INFO - Running "area" with arguments (oop.log,)
+2025-03-26 00:07:19,920 - DEBUG - This is a log message from Square
+2025-03-26 00:07:19,920 - INFO - Running "area" with arguments (oop.log,)
+2025-03-26 00:07:19,921 - DEBUG - This is a log message from Circle
+2025-03-26 00:07:45,030 - INFO - Running "area" with arguments (oop.log,)
+2025-03-26 00:07:45,031 - DEBUG - This is a log message from Square
+2025-03-26 00:07:45,032 - INFO - Running "area" with arguments (oop.log,)
+2025-03-26 00:07:45,032 - DEBUG - This is a log message from Square
+2025-03-26 00:07:45,032 - INFO - Running "area" with arguments (oop.log,)
+2025-03-26 00:07:45,033 - DEBUG - This is a log message from Circle
+2025-03-26 00:08:20,894 - INFO - Running "area" with arguments (oop.log,)
+2025-03-26 00:08:20,894 - DEBUG - This is a log message from Square
+2025-03-26 00:08:20,895 - INFO - Running "area" with arguments (oop.log,)
+2025-03-26 00:08:20,895 - DEBUG - This is a log message from Square
+2025-03-26 00:08:20,896 - INFO - Running "area" with arguments (oop.log,)
+2025-03-26 00:08:20,896 - DEBUG - This is a log message from Circle
