@@ -13,3 +13,4 @@ class Animal(ABC):
     # concreate method is used to define the method in the parent class
     def eat(self):
         return "I eat food"
+    
